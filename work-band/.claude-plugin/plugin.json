@@ -1,0 +1,1 @@
+{ "name": "work-band", "version": "0.1.0", "description": "1つの帯に Codex レビュー状況・Codex 依頼・承認待ちをまとめ、帯の中で並べ替えと表示切替ができる", "types": "./types/index.d.ts" }
