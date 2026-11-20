@@ -1,0 +1,1 @@
+{ "name": "file-cards", "version": "0.1.0", "description": "Claude がそのターンで作成・更新したファイルを回答の下のカードに並べ、既定アプリ・ブラウザ・VS Code・Excel の新規・Claude のペイン・フォルダで開く／パスをコピーできるようにする", "types": "./types/index.d.ts" }

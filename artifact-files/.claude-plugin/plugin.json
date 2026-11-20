@@ -1,1 +1,0 @@
-{ "name": "artifact-files", "version": "0.1.0", "description": "Claude が作った成果物をチャット末尾に並べ、既定アプリ・エディタ・フォルダで開く／パスをコピーする", "types": "./types/index.d.ts" }

@@ -5,8 +5,7 @@ These are mods for Claude Code (the Claude desktop app's Code tab and the CLI). 
 | mod | What it does |
 |---|---|
 | [work-band](work-band) | Gathers work status into one band above the prompt: a Codex request form, the progress of Codex reviews, Codex jobs, the approval hub, a registered-script runner, a Git row, saved prompts and usage (Claude/GPT 5h·1w, context). A settings pane lets you reorder each element and show or hide it. |
-| [artifact-files](artifact-files) | At the end of a turn, lists the files Claude created or linked, with buttons to open them in the default app, open them in an editor, open their folder and copy their path. |
-
+| [file-cards](file-cards) | Shows the files Claude created or updated in a turn as a card under the answer. Each row has the file's Windows icon, a New/Updated badge and its full path (shown on hover). Its buttons open the file in its default app (HTML in the default browser), open it in VS Code, open a new workbook from an Excel file (the same as right-click "New"), open it in the Claude pane, open its folder and copy its path. |
 ## Requirements
 
 - **Windows:** opening files, scripts and the clipboard go through PowerShell.
@@ -20,7 +19,7 @@ Put the folders anywhere, and add them to `env.CLAUDE_CODE_PLUGIN_DIRS` in `~/.c
 ```json
 {
   "env": {
-    "CLAUDE_CODE_PLUGIN_DIRS": "C:\\path\\to\\claude-mods\\work-band;C:\\path\\to\\claude-mods\\artifact-files"
+    "CLAUDE_CODE_PLUGIN_DIRS": "C:\\path\\to\\claude-mods\\work-band;C:\\path\\to\\claude-mods\\file-cards"
   }
 }
 ```
